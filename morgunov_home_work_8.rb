@@ -1,7 +1,5 @@
 # require 'byebug'
 class Metod
-  attr_accessor:obj
-
   def proverka(obj)
     if obj =~ /\A[a-z]+([a-z]|[0-9]|\_)*\Z/
       "это переменная или функция"
@@ -20,8 +18,8 @@ class Metod
 end
 
 # byebug
-loop do
-m = Metod.new
-obj = gets
-puts m.proverka(obj)
-end
+# loop do
+#   m = Metod.new
+#   obj = gets
+#   puts m.proverka(obj)
+# end
